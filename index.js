@@ -4,7 +4,7 @@ import dotenv from 'dotenv';
 
 dotenv.config();
 
-const hf = new HfInference(process.env.OPEN_AI_API_KEY); // PASTE YOUR OPEN AI API KEY
+const hf = new HfInference(process.env.HUGGINGFACE_ACCESS_TOKEN); // PASTE YOUR HUGGINGFACE ACCESS TOKEN
 
 // Function to read the file
 async function readFile(filename) {
